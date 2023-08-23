@@ -1,4 +1,4 @@
-## Name:Vasnthamukilan M
+## Name:Vasanthamukilan M
 ## Register No:212222230167
 # Experiment-01-INTERFACING DIGITAL OUTPUT FOR ARM DEVELOPMENT BOARD 
 ## Aim:
