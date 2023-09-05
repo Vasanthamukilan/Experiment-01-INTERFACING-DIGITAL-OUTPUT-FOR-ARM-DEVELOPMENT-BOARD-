@@ -44,6 +44,7 @@ The main features of LPC2148 include the following.
 <img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png">
 
 4.select the program name 
+
 <img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png">
 
 
@@ -78,7 +79,7 @@ The main features of LPC2148 include the following.
 <img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png">
 
 ## STM 32 CUBE PROGRAM :
-
+```
 #include "main.h"
 void ledblink();
 
@@ -154,7 +155,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
 }
 #endif
-
+```
 ## Output  :
 <img height=50% width=50% src="https://github.com/Vasanthamukilan/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119559694/4892fc99-3c84-4ae8-ab25-6e586a538c40">
 
