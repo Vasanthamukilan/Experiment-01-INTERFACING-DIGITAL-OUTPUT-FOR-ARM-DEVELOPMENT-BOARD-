@@ -1,5 +1,3 @@
-## Name:Vasanthamukilan M
-## Register No:212222230167
 # Experiment-01-INTERFACING DIGITAL OUTPUT FOR ARM DEVELOPMENT BOARD 
 ## Aim:
 To Interface a Digital output (LED) to ARM development board and write a blink code 
@@ -33,59 +31,57 @@ The main features of LPC2148 include the following.
 •	For extra power optimization, there are individual enable or disable of peripheral functions and peripheral CLK scaling.
 ## Procedure:
  1. click on STM 32 CUBE IDE, the following screen will appear 
- <img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png">
+ <img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png">
 
  2. click on FILE, click on new stm 32 project 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png">
 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png">
 4. select the target to be programmed  as shown below and click on next 
 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png">
 
 4.select the program name 
 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png">
 
 
 5. corresponding ioc file will be generated automatically 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189378-3abbdee2-0df6-470f-a3cd-79c74e3d3ad8.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189378-3abbdee2-0df6-470f-a3cd-79c74e3d3ad8.png">
 
 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189403-f7179f1a-3eae-4637-826b-ab4ec35ba1e1.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189403-f7179f1a-3eae-4637-826b-ab4ec35ba1e1.png">
 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189425-2b2414ce-49b3-4b61-a260-c658cb2e4152.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189425-2b2414ce-49b3-4b61-a260-c658cb2e4152.png">
 
 
 7.click on cntrl+S , automaticall C program will be generated 
 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189443-8b43451d-0b14-47e4-a20b-cc09c6ad8458.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189443-8b43451d-0b14-47e4-a20b-cc09c6ad8458.png">
 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189450-85ffa969-2ffb-4788-81e5-72d60fdda0f1.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189450-85ffa969-2ffb-4788-81e5-72d60fdda0f1.png">
 
 8. edit the program and as per required 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png">
 
 9. use project and build all 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png">
+<img height=30% width=80%src="https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png">
 
 11. once the project is bulild link the hexfile build in stm32cube ide using post processor build 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png">
 
 12. click on debug option 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png">
 
 13. connect the stm nucleo board and click on run 
-<img height=50% width=50% src="https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png">
+<img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png">
 
 ## STM 32 CUBE PROGRAM :
 ```
 #include "main.h"
 void ledblink();
-
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-
 int main(void)
 {
   HAL_Init();
@@ -140,7 +136,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
 }
 void Error_Handler(void)
 {
@@ -149,7 +144,6 @@ void Error_Handler(void)
   {
   }
 }
-
 #ifdef  USE_FULL_ASSERT
 void assert_failed(uint8_t *file, uint32_t line)
 {
@@ -157,9 +151,9 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 ```
 ## Output  :
-<img height=50% width=50% src="https://github.com/Vasanthamukilan/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119559694/4892fc99-3c84-4ae8-ab25-6e586a538c40">
+<img height=30% width=80% src="https://github.com/Vasanthamukilan/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119559694/ea3b4d18-3b98-46e1-a4ea-98b6a14e7f1f">
 
-<img height=50% width=50% src="https://github.com/Vasanthamukilan/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119559694/3e41eb18-817c-4e37-8779-e21a1c39f2ec">
+<img height=30% width=80% src="https://github.com/Vasanthamukilan/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119559694/6ad5aa87-3cfd-4d96-ab6c-4a24301bd9ef">
 
 ## Result :
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
