@@ -77,7 +77,7 @@ The main features of LPC2148 include the following.
 <img height=30% width=80% src="https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png">
 
 ## STM 32 CUBE PROGRAM :
-```
+```c
 #include "main.h"
 void ledblink();
 void SystemClock_Config(void);
